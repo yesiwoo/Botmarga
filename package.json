@@ -1,0 +1,21 @@
+{
+  "name": "firebase-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot integrated with Firebase",
+  "main": "fIREBASEDISCORDBOT.js",
+  "scripts": {
+    "start": "node fIREBASEDISCORDBOT.js",
+    "dev": "nodemon fIREBASEDISCORDBOT.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.16.3",
+    "firebase": "^9.23.0",
+    "firebase-admin": "^10.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
